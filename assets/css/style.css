@@ -117,12 +117,15 @@ body {
 	color: var(--dark-color);
 	margin-top: 15px;
 	transition: all 0.5s;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
-.featured-item:hover h4 {
-	color: var(--primary-color);
-    /* text-decoration: none; */
+.featured-item h4:hover{
+    color: var(--button-color);
 }
+a{
+    text-decoration: none !important;
+}
+
 .featured-item h6 {
 	color: var(--primary-color);
 	font-size: 15px;
@@ -147,6 +150,7 @@ body {
 	margin: 0px 5px;
 	outline: none;
 }
+
 .owl-nav {
     display: none !important;
 }
